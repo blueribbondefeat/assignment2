@@ -1,5 +1,48 @@
+#wrapper{
+  color: orange;
+  background-color: azure;
+  margin-left: 150px;
+}
+
+#image{
+	/*vertical-align: center;*/
+	display: block;
+	margin-left: 94px;
+    margin-right: auto 
+
+}
+
+.headers{
+	font-family: "Times New Roman", serif;
+	color: #FF8C00;
+	text-align: center;
+}
+
+#highlights {
+	width: 700px;
+	font-size: 22px;
+	line-height: 42px;
+}
+
+.hide {
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#link {
+	color: black;
+	text-align: center;
+}
+
+#link a{
+	color: darkblue;
+	text-decoration: underline;
+}
 
 .list{
 	color: black;
 	font-size: 18px;
+	line-height: 30px;
 }
+
