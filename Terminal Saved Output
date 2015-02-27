@@ -1,0 +1,69 @@
+Last login: Thu Jan 29 17:35:06 on ttys000
+Amandas-MacBook-Pro:~ amandahagg$ cd ~
+Amandas-MacBook-Pro:~ amandahagg$ pwd
+/Users/amandahagg
+Amandas-MacBook-Pro:~ amandahagg$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Amandas-MacBook-Pro:~ amandahagg$ cd Sites
+-bash: cd: Sites: No such file or directory
+Amandas-MacBook-Pro:~ amandahagg$ cd Desktop
+Amandas-MacBook-Pro:Desktop amandahagg$ cd Sites
+Amandas-MacBook-Pro:Sites amandahagg$ ls
+Lesson 1 Assignment 	Lesson 2 Assignment.zip	template.zip
+Lesson 2 Assignment	Lesson 2 in class
+Amandas-MacBook-Pro:Sites amandahagg$ ..
+-bash: ..: command not found
+Amandas-MacBook-Pro:Sites amandahagg$ cd..
+-bash: cd..: command not found
+Amandas-MacBook-Pro:Sites amandahagg$ cd ..
+Amandas-MacBook-Pro:Desktop amandahagg$ cd Doc
+-bash: cd: Doc: No such file or directory
+Amandas-MacBook-Pro:Desktop amandahagg$ cd ..
+Amandas-MacBook-Pro:~ amandahagg$ cd Documents/
+Amandas-MacBook-Pro:Documents amandahagg$ mkdir assignment3
+Amandas-MacBook-Pro:Documents amandahagg$ cd assignment3/
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+Amandas-MacBook-Pro:assignment3 amandahagg$ touch index.html
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+index.html
+Amandas-MacBook-Pro:assignment3 amandahagg$ touch base.css
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+base.css	index.html
+Amandas-MacBook-Pro:assignment3 amandahagg$ cp index.html about.html
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+about.html	base.css	index.html
+Amandas-MacBook-Pro:assignment3 amandahagg$ mkdir styles
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+about.html	base.css	index.html	styles
+Amandas-MacBook-Pro:assignment3 amandahagg$ mv base.css styles/base.css
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+about.html	index.html	styles
+Amandas-MacBook-Pro:assignment3 amandahagg$ cd styles
+Amandas-MacBook-Pro:styles amandahagg$ ls
+base.css
+Amandas-MacBook-Pro:styles amandahagg$ mv base.css main_page.css
+Amandas-MacBook-Pro:styles amandahagg$ ls
+main_page.css
+Amandas-MacBook-Pro:styles amandahagg$ mv main_page.css index.page.css
+Amandas-MacBook-Pro:styles amandahagg$ ls
+index.page.css
+Amandas-MacBook-Pro:styles amandahagg$ cd ..
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+about.html	index.html	styles
+Amandas-MacBook-Pro:assignment3 amandahagg$ rm about.html 
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+index.html	styles
+Amandas-MacBook-Pro:assignment3 amandahagg$ rm styles/index.page.css 
+Amandas-MacBook-Pro:assignment3 amandahagg$ ls
+index.html	styles
+Amandas-MacBook-Pro:assignment3 amandahagg$ cd ..
+Amandas-MacBook-Pro:Documents amandahagg$ ls
+StudentContract.pdf
+WD100 Curriculum Detail - January 2014.pdf
+assignment3
+Amandas-MacBook-Pro:Documents amandahagg$ rm -rf assignment3/
+Amandas-MacBook-Pro:Documents amandahagg$ ls
+StudentContract.pdf
+WD100 Curriculum Detail - January 2014.pdf
+Amandas-MacBook-Pro:Documents amandahagg$ 
